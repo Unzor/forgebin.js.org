@@ -13,5 +13,7 @@ $(".info").fadeIn()
   }
 };
 document.querySelectorAll(".enabled").forEach(function(e){
+  if (e.innerText !== "Set Up") {
   e.onclick = info;
+  }
 });
