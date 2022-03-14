@@ -75,16 +75,20 @@ cursor: not-allowed;
   <h1> What is ForgeBin actually for?</h1>
   <p> ForgeBin is a tool for automatically building tools and creating releases automatically on GitHub. When it is time, it will run the requested commands to build the tool then export the files to a release.</p>
   <h1> How do I use my own project for building?</h1>
-  <p> ForgeBin is not completed yet, but when it is completed (soon), you will have to:</p>
+  <p> To set up ForgeBin, you have to:</p>
   <ul>
     <li>Create a GitHub repository and write code</li>
     <li> Make a file named "Forgefile" in the repo and list the build commands and files to export</li>
+    <li> Create a new, empty release (call it Base Release just for the adknowledgement) </li>
     <li> Visit the site </li>
     <li> Click the "Set Up" button</li>
-    <li>Input your Auth token for GitHub</li>
+    <li>Create and input your Auth token for GitHub</li>
     <li>Input the repository</li>
-    <li> Input how often the tool should be built (minimum every hour)</li>
+    <li>Input how often the tool should be built (minimum every hour)</li>
+    <li>Check the Build Now box to build at once</li>
+    <li> Click "Build" button (warning: you can't disable automation!) </li>
   </ul>
+    <a href="automation.html"> Create your own automation here. </a>
   </div>
            <button class="enabled bottom_btn" style="left: 50%; display: none;">Back</button>
   <script src="assets/javascript/app.js"></script>
